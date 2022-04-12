@@ -9,6 +9,7 @@ Também consiste em aplicar novas funcionalidades como automatização de luzes 
 
 Para utilizar basta apenas realizar a alteração das variáveis:
 
+
 ```
 #define BLYNK_TEMPLATE_ID  "ID DO SEU TEMPLATE BLYNK"
 
