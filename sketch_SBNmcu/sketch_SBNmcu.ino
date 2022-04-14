@@ -8,8 +8,8 @@
 
 //Valriáveis
 char auth[] = "***********"; //Token para comunicação com o Blynk
-char ssid[] = "***********"; //Nome da rede que deve se conectar
-char pass[] = "***********"; //Senha da rede que deve se conectar
+char ssid[] = "***********"; //Nome da rede que o NODEMCU deve se conectar
+char pass[] = "***********"; //Senha da rede que o NODEMCU deve se conectar
 int alarme = 0; //Variável para tratamento de erro
 
 //Definições
