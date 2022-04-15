@@ -1,5 +1,5 @@
 //Inicialização do Blynk
-#define BLYNK_PRINT Serial
+#define BLYNK_PRINT Serial // Inicia a animação do Blynk dentro do monitor serial
 #define BLYNK_TEMPLATE_ID  "**********" //Template criado dentro da plataforma Blink
 
 //Bibliotecas
@@ -88,5 +88,4 @@ void loop(){
   ESP.wdtFeed();//Alimenta o WatchDog
   Blynk.run();//Inicializa o Blynk
   TimerSensorPresenca.run();//Inicializa o Timer 
-  
 }
